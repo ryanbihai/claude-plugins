@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "oceanbus-plugins",
+  "description": "OceanBus plugin collection — WeChat CC, Agent communication, P2P tools",
+  "owner": {
+    "name": "ryanbihai"
+  },
+  "plugins": [
+    {
+      "name": "wechat-cc",
+      "description": "WeChat Channel for Claude Code — 微信扫码操控 CC via OceanBus L0 P2P. Auto-bind on scan, permission forwarding.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ryanbihai/wechat-cc.git"
+      },
+      "category": "channels"
+    }
+  ]
+}
